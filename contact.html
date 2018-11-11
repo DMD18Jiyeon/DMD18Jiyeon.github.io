@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Homework #10</title>
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Song+Myung" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color : #FBF4E9;
+            font-family: 'Song Myung', serif;
+            font-size: 1rem;
+        }
+
+        #headA #headA_h1 a {
+            display: inline-block;
+            line-height: 60px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 0px;
+            background-color: #9bc32a;
+            color: #ffffff;
+            font-size: 24px;
+            text-decoration: none;
+        }
+
+        #headA #headA_h1 a:hover {
+            background-color: #9BB584;
+            color: #ffffff;
+        }
+
+        #headA #headA_h1 {
+            margin: 0px;
+            font-size: 30px;
+        }
+
+        #headA {
+            max-width: 1000px;
+            float: left;
+        }
+
+        #headB {
+            float: right;
+            margin-right: 20px;
+            margin-top: 20px;
+            padding-bottom: 16px;
+            color: #A8A49D;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        h3{
+            margin-top: 80px;
+            margin-bottom: 100px;
+            font-size: 4rem;
+            text-align: center;
+        }
+
+        h4 {
+            text-align: center;
+        }
+
+        #logo {
+            text-align: center;
+        }
+
+        #img_main {
+            border-radius : 100%;
+        }
+
+        #link a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-top:15px;
+            padding:12px;
+            text-align:center;
+        }
+
+        #link {
+            background-color:#4e4c4d;
+            margin-top:15px;
+            margin-bottom: 90px;
+            padding:20px;
+            text-align:center;
+        }
+
+        #link a:hover {
+            color: plum;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        #link li {
+            padding:0 20px 0 20px;
+            display:inline;
+        }
+        .table {
+            margin:auto;
+            margin-bottom: 80px;
+            background-color: #FDFBF9;
+            padding: 80px;
+        }
+        .table td{
+            padding-bottom:10px;
+        }
+        .table th{
+            padding-bottom: 40px;
+        }
+        #title{
+            font-size: 2.5rem;
+        }
+        .button {
+            opacity: 0.5;
+            transform: scale(1);
+            transition: all 0.3s;
+        }
+        .button:hover {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+        #footer {
+        border-top: 1px solid #dddddd;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        }
+        #footer p {
+            font-size: 14px;
+            color: #666666;
+            margin-left: 20px;
+            margin-top: 5px;
+        }
+        #footer span {
+            font-size: 14px;
+            font-weight: normal;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+        
+<body>
+    <header>
+       <div id="headA">
+           <h1 id="headA_h1"><a href="index.html" class="site">KJY</a></h1>
+       </div>
+
+       <div id="headB">
+           <h4>디지털미디어디자인과 1학년 B반 학번 :  21861039_김지연</h4>
+       </div>
+     </header>
+     
+     <div class="clear"></div>
+              
+     <h3>CONTENTS PROGRAMING</h3>
+                
+     <div id="headC">
+          <ul id="link">
+              <li><a href="contact.html">contact</a></li>
+              <li><a href="profile.html">profile</a></li>
+              <li><a href="hw01.html">과제01</a></li>
+              <li><a href="hw02.html">과제02</a></li>
+              <li><a href="hw03.html">과제03</a></li>
+              <li><a href="hw04.html">과제04</a></li>
+              <li><a href="hw05.html">과제05</a></li>
+              <li><a href="hw06.html">과제06</a></li>
+              <li><a href="portfolio.html">portfolio</a></li>
+          </ul>
+      </div>
+       
+      <form>
+        <table class="table">
+            <tr id="title">
+                <th colspan="2">CONTNET</th>
+            </tr>
+            <tr>
+                <td>이름</td>
+                <td><input type="text" name="uid"></td>
+            </tr>
+            <tr>
+                <td>이메일</td>
+                <td><input type="email" name="mail adress"> @
+                  <select name="favorites">
+                      <option value="select">선택하세요</option>
+                      <option value="http://www.google.com">gmail.com</option>
+                      <option value="naver">naver.com</option>
+                      <option value="daum">hanmail.net</option>
+                  </select></td>
+            </tr>
+            <tr>
+                <td>제목</td>
+                <td><input type="text" name="tittle"></td>
+            </tr>
+            <tr>
+                <td>내용</td>
+                <td><textarea name="message" rows="4" cols="50">
+
+                    </textarea></td>
+            </tr>
+            <tr class="input icon">
+                <td colspan="2"><input class="button" type="submit" name value="전송"> <input class="button" type="submit" name value="재설정"></td>
+            </tr>
+        </table>
+      </form>
+       
+       
+      <footer>
+          <div id="footer">
+              <p>Copyright &copy; <a href="index.html" class="site">jykim</a> All rights reserved.
+              <span>E-MAIL : sarah5118@naver.com</span>
+          </div>
+      </footer>
+        
+        
+        
+        
+</body>
+</html>
