@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>21861039 김지연</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    
+    <script src="./js/jquery-3.1.1.min.js"> </script>
+    <script src="./js/jquery.bxslider.js"> </script>
+    <script>
+        $(function() {
+            $(".bxslider").bxSlider({
+                slidthWidth: 600,
+                captions: true,
+                auto: true, // 자동실행
+                autoControls: true, // 재생 버튼 표시
+                stopAutoOnclick: true // 클릭해서 자동실행 멈춤 지정
+            });
+        });
+
+    </script>
+    
+    <style>
+        wrapper {
+            width: 400px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+   <div id="info">
+       <header>
+          
+           <div id="headA">
+               <h1 id="headA_h1"><a href="index.html" class="site">KJY</a></h1>
+           </div>
+
+           <div id="headB">
+               <h4>디지털미디어디자인과 1학년 B반 학번 :  21861039_김지연</h4>
+           </div>
+           
+       </header>
+       <div class="clear"></div>
+       <h3>CONTENTS PROGRAMING</h3>
+   </div>
+         
+   <div class="menu">
+       <ul>
+           <li><a href="./index.html">HOME</a></li>
+           <li><a href="./profile.html">ABOUT ME</a></li>
+           <li class="active sub">
+               <a href="#">HOMEWORK</a>
+               <ul>
+                   <li class="sub">
+                       <a href="#">HTML</a>
+                       <ul>
+                           <li>
+                               <a href="./hw01.html">HW01</a>
+                           </li>
+                           <li>
+                               <a href="./hw02.html">HW02</a>
+                           </li>
+                           <li>
+                               <a href="./hw03.html">HW03</a>
+                           </li>
+                       </ul>
+                   </li>
+                   <li>
+                       <a href="#">CSS</a>
+                       <ul>
+                           <li>
+                               <a href="./hw04.html">HW04</a>
+                           </li>
+                           <li>
+                               <a href="./hw05.html">HW05</a>
+                           </li>
+                           <li>
+                               <a href="./hw06.html">HW06</a>
+                           </li>
+                           <li>
+                               <a href="./contact.html">HW07</a>
+                           </li>
+                       </ul>
+                   </li>
+               </ul>
+           </li>
+           <li><a href="./portfolio.html">PORTFOLIO</a></li>
+           <li><a href="./contact.html">CONTACT</a></li>
+       </ul>
+   </div>
+</body>
+</html>
